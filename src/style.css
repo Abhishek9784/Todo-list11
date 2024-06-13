@@ -1,0 +1,125 @@
+.todo-list {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid #663e8e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(182, 54, 75);
+  }
+  
+  .todo-list h1 {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .todo-list form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom:10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .todo-list button[type="submit"] {
+    background-color: #1a1ad4;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+  .todo-list button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .filters label {
+    margin-right: 30px;
+  }
+  
+  .filters input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .filters select {
+    padding: 9px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list span {
+    font-size: 15px;
+  }
+  
+  .todo-list button[type="Remove"] {
+    background-color: #1a1ad4;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 20em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .todo-list button[type="Remove"]:hover {
+    background-color: #3e8e41;
+  } 
+
+  .clear{
+    padding: 20px;
+  }
+
+  .todo-list button[type="Clear"] {
+    background-color: #1a1ad4;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    margin-left:15vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .todo-list button[type="Clear"]:hover {
+    background-color: #3e8e41;
+  }
